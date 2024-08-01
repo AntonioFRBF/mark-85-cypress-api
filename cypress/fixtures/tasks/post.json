@@ -1,0 +1,27 @@
+{
+    "create": {
+        "user": {
+            "name": "frederico",
+            "email": "frederico@gmail.com",
+            "password": "ninox123"
+        },
+        "task": {
+            "name": "Pagar a fatura do meu cartão",
+            "tags": [
+                "nubank",
+                "ourocard",
+                "smile"
+            ]
+        }
+    },
+    "duplicate": {
+        "user": {
+            "name": "tonii",
+            "email": "tonii@gmail.com",
+            "password": "tonii123"
+        },
+        "task": {
+            "name": "Fazer compras no mercado"
+        }
+    }
+}

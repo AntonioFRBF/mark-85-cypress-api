@@ -1,0 +1,26 @@
+{
+    "update": {
+        "user": {
+            "name": "antonino",
+            "email": "antonino@gmail.com",
+            "password": "ninox123"
+        },
+        "task": {
+            "name": "ver videos sobre cenarios e casos de teste",
+            "tags": [
+                "teste manual",
+                "js"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "antonininho",
+            "email": "antonininho@gmail.com",
+            "password": "ninox123"
+        },
+        "task": {
+            "name": "a respeito do cenario de teste, tenho que variar mais os cenarioss"
+        }
+    }
+}

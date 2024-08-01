@@ -1,0 +1,57 @@
+{
+    "list": {
+        "user": {
+            "name": "teste",
+            "email": "teste@gmail.com",
+            "password": "ninox123"
+        },
+        "tasks": [
+            {
+                "name": "estud4r js",
+                "tags": [
+                    "qax"
+                ]
+            },
+            {
+                "name": "estud4r typescrypt",
+                "tags": [
+                    "typescrpit",
+                    "ts"
+                ]
+            },
+            {
+                "name": "estud4r cypress",
+                "tags": [
+                    "cypress",
+                    "js",
+                    "nodejs"
+                ]
+            }
+        ]
+    },
+    "unique": {
+        "user": {
+            "name": "teste dois",
+            "email": "testedois@gmail.com",
+            "password": "ninox123"
+        },
+        "task": {
+            "name": "estudar t.i",
+            "tags": [
+                "cypress",
+                "js",
+                "teste manual"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "teste tres",
+            "email": "testetres@gmail.com",
+            "password": "ninox123"
+        },
+        "task": {
+            "name": "estudar mais ainda js e teste manual"
+        }
+    }
+}

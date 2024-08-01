@@ -1,0 +1,30 @@
+{
+  "login": {
+    "name": "antoniof",
+    "email": "antoniof@gmail.com",
+    "password": "nino123"
+  },
+  "inv_pass": {
+    "email": "frederico@gmail.com'",
+    "password": "123"
+  },
+  "inv_email": {
+    "email": "123@gmail.com'",
+    "password": "123"
+  },
+  "create" : {
+    "name": "antonio fernandez",
+    "email": "antonio@gmail.com",
+    "password": "antonio"
+  },
+  "duplicate_email" : {
+    "name": "nino",
+    "email": "antonio@gmail.com",
+    "password": "nino123"
+  },
+  "required" : {
+    "name": "nino",
+    "email": "antonio@gmail.com",
+    "password": "nino123"
+  }
+}

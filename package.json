@@ -1,0 +1,29 @@
+{
+  "name": "mark85-cypress-api",
+  "version": "1.0.0",
+  "description": "Teste API",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node ./build/app.js",
+    "start:dev": "nodemon --exec babel-node ./app.js",
+    "clean": "rm -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./app.js -s",
+    "build": "npm run clean && npm run build-babel",
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Antonio Fernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "cypress": "^13.10.0",
+    "cypress-plugin-api": "^2.11.1",
+    "mongodb": "^6.7.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.2"
+  }
+}

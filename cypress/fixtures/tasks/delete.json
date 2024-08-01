@@ -1,0 +1,27 @@
+{
+    "remove": {
+        "user": {
+            "name": "teste seis",
+            "email": "testeseis@gmail.com",
+            "password": "ninox123"
+        },
+        "task": {
+            "name": "estudar mais sobre",
+            "tags": [
+                "cypress",
+                "teste manual",
+                "teste automatico"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "teste cinco",
+            "email": "testecinco@gmail.com",
+            "password": "ninox123"
+        },
+        "task": {
+            "name": "estudar melhor como fazer cenario de teste e casos de teste"
+        }
+    }
+}
